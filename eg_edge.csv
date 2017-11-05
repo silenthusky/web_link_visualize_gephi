@@ -1,0 +1,15 @@
+source	target	weight
+/index.php	/index.php	1
+/index.php	/index.php?mod=login	1
+/index.php	/index.php?mod=threads	1
+/index.php	/index.php?mod=user	1
+/index.php?mod=threads	/index.php	1
+/index.php?mod=threads	/index.php?mod=threads&page=1	1
+/index.php?mod=threads	/index.php?mod=threads&page=2	1
+/index.php?mod=threads&page=1	/index.php	1
+/index.php?mod=user	/index.php?mod=user&page=1	1
+/index.php	/threads	1
+/threads/page	/threads/page/3	1
+/threads	/threads/29834	1
+/threads	/threads/page	1
+
